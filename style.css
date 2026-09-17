@@ -42,6 +42,24 @@ a {
 }
 a:hover { text-decoration: underline; }
 
+.notice-banner {
+  background: #c0392b;
+  color: #ffffff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.notice-banner a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.notice-banner a:hover {
+  text-decoration: none;
+}
+
 .site-header {
   padding: 56px 0 28px;
   border-bottom: 1px solid var(--border);
